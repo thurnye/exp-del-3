@@ -12,7 +12,7 @@ router.get('/albums', Controller.getAlbums);
 router.get('/albums/a:id', Controller.getOneAlbum);
 
 
-router.get('/albums/t:id/:name', Controller.getOneAlbumDetails);
+router.get('/albums/a:id/:tid/', Controller.getOneAlbumDetails);
 
 
 

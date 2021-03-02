@@ -20,7 +20,7 @@
               <% for (let el of album.tracks) {%>
                 <ol>
                   <li>
-                    <a href="/albums/<%= el.id %>/<%= el.name %>"><%= el.name %></a>
+                    <a href="/albums/a<%= album.id %>/<%= el.id%>"><%= el.name %></a>
                   </li>
                 </ol>
               <% }%>
