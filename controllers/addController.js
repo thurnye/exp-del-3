@@ -26,6 +26,6 @@ exports.postAddAlbum = (req, res) => {
             name: song
         }]
     }
-   Albums.albumsArray.push(album);
+    Albums.albumsArray.push(album);
     res.redirect('/albums');
 }
