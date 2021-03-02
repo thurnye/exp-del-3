@@ -28,5 +28,6 @@ const albumsArray = [
     module.exports = {
         getAll,
         getOne,
-        getAtIndex
+        getAtIndex,
+        albumsArray
     }

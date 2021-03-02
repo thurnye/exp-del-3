@@ -25,3 +25,12 @@ a{
   justify-content: center;
   align-items: center;
 }
+
+.add{
+  margin: 150px;
+}
+
+form{
+  max-width: 450px;
+  margin: 150px;
+}
