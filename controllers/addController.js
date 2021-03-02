@@ -24,7 +24,7 @@ exports.postAddAlbum = (req, res) => {
         tracks: [{
             id: id,
             name: song
-        }];
+        }]
     }
    Albums.albumsArray.push(album);
     res.redirect('/albums');
