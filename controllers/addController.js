@@ -15,7 +15,6 @@ exports.postAddAlbum = (req, res) => {
     const artist = req.body.artist;
     const imageUrl = req.body.imageUrl;
     const song = req.body.song;
-    console.log(id)
 
     const album = {
         id: id,
@@ -25,8 +24,8 @@ exports.postAddAlbum = (req, res) => {
         tracks: [{
             id: id,
             name: song
-        }]
+        }];
     }
-   Albums.albumsArray.push(album)
-    res.redirect('/albums')
+   Albums.albumsArray.push(album);
+    res.redirect('/albums');
 }
